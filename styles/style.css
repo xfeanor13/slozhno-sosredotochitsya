@@ -238,7 +238,6 @@ a:focus {
   inline-size: 100%;
   justify-content: center;
   margin-block-start: 40px;
-  align-items: center;
 }
 
 .bg_color_titles {
@@ -334,6 +333,8 @@ a:focus {
   }
 
   .books {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
   }
 
   .street1 {
