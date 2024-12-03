@@ -13,13 +13,6 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
-body {
-  min-inline-size: 375px;
-  max-inline-size: 1440px;
-  margin: 0;
-  padding: 0;
-}
-
 .rec {
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-m);
@@ -75,7 +68,7 @@ body {
 }
 
 .header__theme-menu {
-  padding-block-start: 20px;
+  padding-block-start: 10px;
 }
 
 .header__theme-menu-item {
@@ -137,6 +130,7 @@ body {
   line-height: var(--line-height-m);
   font-family: var(--font-family);
   block-size: min-content;
+  padding-block-start: 10px;
 }
 
 .main {
@@ -233,7 +227,7 @@ a:focus {
 
 .images {
   inline-size: 100%;
-  block-size: 100%;
+  display: block;
 }
 
 footer {
@@ -374,6 +368,7 @@ footer {
     align-self: flex-start;
     justify-self: center;
     padding-inline-start: 20px;
+    padding-block-start: 20px;
   }
 
   .header__theme-menu-list {
