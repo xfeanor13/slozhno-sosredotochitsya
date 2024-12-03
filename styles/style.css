@@ -238,6 +238,7 @@ a:focus {
   inline-size: 100%;
   justify-content: center;
   margin-block-start: 40px;
+  min-block-size: 668px;
 }
 
 .bg_color_titles {
