@@ -13,12 +13,6 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
-body {
-  min-inline-size: 375px;
-  max-inline-size: 1440px;
-  margin: 0 auto;
-}
-
 .rec {
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-m);
