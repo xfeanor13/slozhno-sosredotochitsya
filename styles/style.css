@@ -13,6 +13,13 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
+body {
+  min-inline-size: 375px;
+  max-inline-size: 1440px;
+  margin: 0;
+  padding: 0;
+}
+
 .rec {
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-m);
@@ -78,6 +85,7 @@
   align-items: end;
   border: none;
   justify-content: center;
+  text-align: center;
 }
 
 .header__theme-menu-button {
