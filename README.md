@@ -1,1 +1,1 @@
-git@github.com:xfeanor13/slozhno-sosredotochitsya.git
+https://github.com/xfeanor13/slozhno-sosredotochitsya.git
