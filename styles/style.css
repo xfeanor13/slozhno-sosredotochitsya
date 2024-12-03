@@ -74,6 +74,10 @@ body {
   inset-inline-start: 0px;
 }
 
+.header__theme-menu {
+  padding-block-start: 20px;
+}
+
 .header__theme-menu-item {
   inline-size: 70px;
 }
@@ -229,6 +233,7 @@ a:focus {
 
 .images {
   inline-size: 100%;
+  block-size: 100%;
 }
 
 footer {
@@ -256,6 +261,7 @@ footer {
 .bg_color_titles {
   background-color: var(--bg-color-titles);
 }
+
 
 @media (width >= 768px) {
   .page {
