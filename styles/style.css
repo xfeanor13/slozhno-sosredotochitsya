@@ -13,6 +13,12 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
+body {
+  min-inline-size: 375px;
+  max-inline-size: 1440px;
+  margin: 0 auto;
+}
+
 .rec {
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-m);
@@ -223,6 +229,11 @@ a:focus {
   inline-size: 100%;
 }
 
+footer {
+  block-size: 100vh;
+  min-block-size: 668px;
+}
+
 .footer_title {
   color: var(--color-major-title);
   font-family: var(--font-family);
@@ -238,7 +249,6 @@ a:focus {
   inline-size: 100%;
   justify-content: center;
   margin-block-start: 40px;
-  min-block-size: 668px;
 }
 
 .bg_color_titles {
