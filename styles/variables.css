@@ -10,7 +10,7 @@
     --line-height-l: 95.7px;
     --line-height-m: 23.4px;
     --line-height-s: 18px;
-    --font-family: 'IBM Plex mono';
+    --font-family: 'IBM Plex mono', 'Arial', sans-serif;
     --bg-color: #000028;
     --color-major-title: #DB00FF;
     --text-back-button-color-contrast: #FF0070;
@@ -21,4 +21,5 @@
     --bg-image: url(../images/cover-image-dark.png);
     --shadow-color: #ff0070;
     --bg-color-titles: #ff0070;
+    --color-hover: #FF007066;
     }
