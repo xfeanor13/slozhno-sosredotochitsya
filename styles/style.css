@@ -215,6 +215,7 @@ a:hover {
 
 a:focus {
   border: 1px solid currentColor;
+  outline: none;
 }
 
 .another_subtitle {
@@ -258,12 +259,15 @@ footer {
   font-weight: var(--font-weight-l);
   line-height: var(--line-height-l);
   text-shadow: 2px 2px var(--shadow-color);
-  display: flex;
+  display: grid;
+  grid-template-rows: 1fr;
   align-items: center;
   position: relative;
   inline-size: 100%;
   justify-content: center;
   margin-block-start: 40px;
+  justify-items: center;
+  block-size: 100vh;
 }
 
 .bg_color_titles {
@@ -376,7 +380,6 @@ footer {
   .footer_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin-block-start: 60px;
-    min-block-size: 1024px;
     padding-inline-start: 20px;
   }
 }
@@ -419,9 +422,5 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     grid-template-rows: 260px 315px 433px;
-  }
-
-  .footer_title {
-    min-block-size: 768px;
   }
 }
